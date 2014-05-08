@@ -1,0 +1,366 @@
+/*------------------------------------------------------------------------------
+
+
+Howdy! This is the CSS file that controls the
+Blue (classic) color style on the WordPress Dashboard.
+
+This file contains both LTR and RTL styles.
+
+
+TABLE OF CONTENTS:
+------------------
+ 1.0 - Left to Right Styles
+ 2.0 - Right to Left Styles
+
+
+------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------
+  1.0 - Left to Right Styles
+------------------------------------------------------------------------------*/
+
+.find-box-search,
+.find-box-buttons {
+	background-color: #eff8ff;
+	border-top: 1px solid #dce6f8;
+}
+
+.find-box {
+	background-color: #5589aa;
+}
+
+.find-box-head {
+	color: #fff;
+}
+
+.find-box-inside {
+	background-color: #fff;
+}
+
+a.page-numbers:hover {
+	border-color: #999;
+}
+
+body,
+#wpbody,
+.form-table .pre,
+.ui-autocomplete li a {
+	color: #333;
+}
+
+body > #upload-menu {
+	border-bottom-color: #fff;
+}
+
+#postcustomstuff table,
+#your-profile fieldset,
+#rightnow,
+div.dashboard-widget,
+#dashboard-widgets p.dashboard-widget-links {
+	border-color: #d1e5ee;
+}
+
+#poststuff .inside label.spam,
+#poststuff .inside label.deleted {
+	color: red;
+}
+
+#poststuff .inside label.waiting {
+	color: orange;
+}
+
+#poststuff .inside label.approved {
+	color: green;
+}
+
+#postcustomstuff table {
+	border-color: #dfdfdf;
+	background-color: #f9f9f9;
+}
+
+#postcustomstuff thead th {
+	background-color: #f1f1f1;
+}
+
+.widefat {
+	border-color: #d1e5ee;
+	background-color: #fff;
+}
+
+div.dashboard-widget-error {
+	background-color: #c43;
+}
+
+div.dashboard-widget-notice {
+	background-color: #cfe1ef;
+}
+
+div.dashboard-widget-submit {
+	border-top-color: #ccc;
+}
+
+ul.category-tabs li {
+	border-color: transparent;
+}
+
+div.tabs-panel,
+.wp-tab-panel,
+ul.add-menu-item-tabs li.tabs,
+.wp-tab-active {
+	border-color: #d1e5ee;
+	background-color: #fff;
+}
+
+ul.category-tabs li.tabs {
+	border-color: #d1e5ee #d1e5ee #fff;
+}
+
+ul.category-tabs li.tabs,
+ul.add-menu-item-tabs li.tabs,
+.wp-tab-active {
+	background-color: #fff;
+}
+
+kbd,
+code {
+	background: #eff8ff;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="file"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+select {
+	border-color: #d1e5ee;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="file"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+select:focus {
+	border-color: #b0c8d7;
+}
+
+input.disabled,
+textarea.disabled {
+	background-color: #ccc;
+}
+
+#plugin-information .action-button a,
+#plugin-information .action-button a:hover,
+#plugin-information .action-button a:visited {
+	color: #fff;
+}
+
+.widget .widget-top,
+.postbox h3,
+.stuffbox h3,
+.widefat thead tr th,
+.widefat tfoot tr th,
+h3.dashboard-widget-title,
+h3.dashboard-widget-title span,
+h3.dashboard-widget-title small,
+.sidebar-name,
+#nav-menu-header,
+#nav-menu-footer,
+.menu-item-handle,
+#fullscreen-topbar {
+	background: #f5fafd;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#eff8ff), to(#f7fcfe));
+	background-image: -webkit-linear-gradient(bottom, #eff8ff, #f7fcfe);
+	background-image:    -moz-linear-gradient(bottom, #eff8ff, #f7fcfe);
+	background-image:      -o-linear-gradient(bottom, #eff8ff, #f7fcfe);
+	background-image: linear-gradient(to top, #eff8ff, #f7fcfe);
+}
+
+.widget .widget-top,
+.postbox h3,
+.stuffbox h3 {
+	border-bottom-color: #d1e5ee;
+	text-shadow: #fff 0 1px 0;
+	-webkit-box-shadow: 0 1px 0 #fff;
+	box-shadow: 0 1px 0 #fff;
+}
+
+.form-table th,
+.form-wrap label {
+	color: #222;
+	text-shadow: #fff 0 1px 0;
+}
+
+.description,
+.form-wrap p {
+	color: #666;
+}
+
+strong .post-com-count span {
+	background-color: #21759b;
+}
+
+.sorthelper {
+	background-color: #ccf3fa;
+}
+
+.ac_match,
+.subsubsub a.current {
+	color: #000;
+}
+
+.wrap h2 {
+	color: #174f69;
+}
+
+.wrap .add-new-h2,
+.wrap .add-new-h2:active {
+	background: #f1f1f1;
+}
+
+.subtitle {
+	color: #777;
+}
+
+.ac_over {
+	background-color: #f0f0b8;
+}
+
+.ac_results {
+	background-color: #fff;
+	border-color: #b0c8d7;
+}
+
+.ac_results li {
+	color: #101010;
+}
+
+.alternate,
+.alt {
+	background-color: #f7fcfe;
+}
+
+.available-theme a.screenshot {
+	background-color: #eff8ff;
+	border-color: #acd;
+}
+
+#current-theme {
+	border-bottom-color: #d1e5ee;
+}
+
+.bar {
+	background-color: #e8e8e8;
+	border-right-color: #99d;
+}
+
+#media-upload,
+#media-upload .media-item .slidetoggle {
+	background: #fff;
+}
+
+#media-upload .slidetoggle {
+	border-top-color: #dfdfdf;
+}
+
+div.error,
+.login #login_error {
+	background-color: #ffebe8;
+	border-color: #c00;
+}
+
+div.error a {
+	color: #c00;
+}
+
+.form-invalid {
+	background-color: #ffebe8 !important;
+}
+
+.form-invalid input,
+.form-invalid select {
+	border-color: #c00 !important;
+}
+
+.submit,
+#commentsdiv #add-new-comment {
+	border-color: #dfdfdf;
+}
+
+.highlight {
+	background-color: #e4f2fd;
+	color: #000;
+}
+
+.howto,
+.nonessential,
+#edit-slug-box,
+.form-input-tip,
+.subsubsub {
+	color: #666;
+}
+
+.media-upload-form label.form-help,
+td.help {
+	color: #9a9a9a;
+}
+
+.ui-autocomplete {
+	border-color: #b0c8d7;
+	background-color: #eff8ff;
+}
+
+.ui-autocomplete li a.ui-state-focus {
+	background-color: #def1ff;
+}
+
+.post-com-count {
+	color: #fff;
+}
+
+.post-com-count span {
+	background-color: #bbb;
+	color: #fff;
+}
+
+.post-com-count:hover span {
+	background-color: #d54e21;
+}
+
+.quicktags, .search {
+	background-color: #ccc;
+	color: #000;
+}
+
+.side-info h5 {
+	border-bottom-color: #dadada;
+}
+
+.side-info ul {
+	color: #666;
+}
+
+a:hover,
+a:active {
+	color: #d54e21;
+}
+
+a:focus {
+	color: #124964;
+}
+
+#adminmenu a:hover,
+#adminmenu li.menu-top > a:focus,
+#adminmenu .wp-submenu a:hover,
+#the-comment-list .comment a:hover,
+#rightnow a:hover,
+#m
